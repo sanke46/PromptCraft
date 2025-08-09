@@ -1,0 +1,9 @@
+package com.iafedoseye.promptcraft
+
+class Greeting {
+    private val platform = getPlatform()
+
+    fun greet(): String {
+        return "Hello, ${platform.name}!"
+    }
+}
